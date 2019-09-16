@@ -1,7 +1,10 @@
 # Setup environment for docker
 Run npm install 
+
 Run docker-compose up -d
+
 Run npm run server:development
+
 Go To http://localhost:3030
 
 #for testing use this
