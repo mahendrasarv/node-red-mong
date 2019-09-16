@@ -19,10 +19,10 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3030/user?email=ssimsek@outlook.com",
+			"name": "localhost:3030/user?email=mahendra.t@sarv.com",
 			"request": {
 				"url": {
-					"raw": "localhost:3030/user?email=ssimsek@outlook.com",
+					"raw": "localhost:3030/user?email=mahendra.t@sarv.com",
 					"host": [
 						"localhost"
 					],
@@ -33,7 +33,7 @@
 					"query": [
 						{
 							"key": "email",
-							"value": "ssimsek@outlook.com",
+							"value": "mahendra.t@sarv.com",
 							"equals": true,
 							"description": ""
 						}
@@ -102,7 +102,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"name\": \"Mustafa Kemal Ataturk\",\n\t\"uname\": \"ataturk\",\n\t\"email\": \"ataturk@turkiye.gov.tr\",\n\t\"age\": 99\n}"
+					"raw": "{\n\t\"name\": \"Mahendra Tripathi\",\n\t\"uname\": \"mahen\",\n\t\"email\": \"mahendra.t@sarv.com\",\n\t\"age\": 32\n}"
 				},
 				"description": "Create single user."
 			},
@@ -129,10 +129,10 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3030/user?email=ssimsek@outlook.com",
+			"name": "localhost:3030/user?email=mahendra.t@sarv.com",
 			"request": {
 				"url": {
-					"raw": "localhost:3030/user?email=ssimsek@outlook.com",
+					"raw": "localhost:3030/user?email=mahendra.t@sarv.com",
 					"host": [
 						"localhost"
 					],
@@ -143,7 +143,7 @@
 					"query": [
 						{
 							"key": "email",
-							"value": "ssimsek@outlook.com",
+							"value": "mahendra.t@sarv.com",
 							"equals": true,
 							"description": ""
 						}
@@ -160,17 +160,17 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Serdar Simsek\",\n    \"uname\": \"smskserdar\",\n    \"email\": \"ssimsek@outlook.com\",\n    \"age\": 33,\n    \"__v\": 0\n}"
+					"raw": "{\n    \"name\": \"Mahendra\",\n    \"uname\": \"mahen\",\n    \"email\": \"mahendra.t@sarv.com\",\n    \"age\": 35,\n    \"__v\": 0\n}"
 				},
 				"description": "Update single user."
 			},
 			"response": []
 		},
 		{
-			"name": "localhost:3030/user?email=hoops@jack.com",
+			"name": "localhost:3030/user?email=mahendra.t@sarv.com",
 			"request": {
 				"url": {
-					"raw": "localhost:3030/user?email=hoops@jack.com",
+					"raw": "localhost:3030/user?email=mahendra.t@sarv.com",
 					"host": [
 						"localhost"
 					],
@@ -181,7 +181,7 @@
 					"query": [
 						{
 							"key": "email",
-							"value": "hoops@jack.com",
+							"value": "mahendra.t@sarv.com",
 							"equals": true,
 							"description": ""
 						}

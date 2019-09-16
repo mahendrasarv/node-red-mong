@@ -9,6 +9,6 @@ Go To http://localhost:3030
 ./test/postman/sarv.postman_collection.json
 
 
-# cache working
+# cache working (redis)
 Current cache use only for age, limit and page values as query parameters.
 

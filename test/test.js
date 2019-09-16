@@ -25,9 +25,9 @@ describe('Backend Testing', () => {
       Chai.request(ServerConfig.SERVER_TEST)
         .post('/user')
         .send({
-          "name": "John Doe",
-          "uname": "johndoe",
-          "email": "john@doe.com",
+          "name": "Mahendra",
+          "uname": "mahen",
+          "email": "mahendra.t@sarv.com",
           "age": 33
         })
         .end((err, res) => {
@@ -53,11 +53,11 @@ describe('Backend Testing', () => {
     it('should update the user with given email.', (done) => {
       Chai.request(ServerConfig.SERVER_TEST)
         .put('/user')
-        .query({ email: 'john@doe.com' })
+        .query({ email: 'mahendra.t@sarv.com' })
         .send({
-          "name": "Updated John Doe",
-          "uname": "johndoe",
-          "email": "john@doe.com",
+          "name": "Updated Mahen",
+          "uname": "mahen",
+          "email": "mahendra.t@sarv.com",
           "age": 45
         })
         .end((err, res) => {
@@ -72,7 +72,7 @@ describe('Backend Testing', () => {
     it('should return a user name with email.', (done) => {
       Chai.request(ServerConfig.SERVER_TEST)
         .get('/user')
-        .query({ email: 'ssimsek@outlook.com' })
+        .query({ email: 'mahendra.t@sarv.com' })
         .end((err, res) => {
           Expect(err).to.be.null;
           Expect(res).to.have.status(200);
@@ -131,7 +131,7 @@ describe('Backend Testing', () => {
     it('should delete the user with given email.', (done) => {
       Chai.request(ServerConfig.SERVER_TEST)
         .delete('/user')
-        .query({ email: 'john@doe.com' })
+        .query({ email: 'mahendra.t@sarv.com' })
         .end((err, res) => {
           Expect(err).to.be.null;
           Expect(res).to.have.status(200);
