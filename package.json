@@ -37,7 +37,7 @@
     "method-override": "^2.3.9",
     "mocha": "^6.2.0",
     "moment": "^2.18.1",
-    "mongoose": "^4.11.14",
+    "mongoose": "^5.7.5",
     "nodemon": "^1.11.0",
     "path": "^0.12.7",
     "redis": "^2.8.0",
